@@ -1,3 +1,8 @@
+# Link github gốc
+
+https://github.com/KhaLee2307/image-retrieval
+
+
 ### Yêu cầu thư viện
 
 ```
