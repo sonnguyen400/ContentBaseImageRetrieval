@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/image-retrieval.iml" filepath="$PROJECT_DIR$/.idea/image-retrieval.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/image-retrieval-cpu.iml" filepath="$PROJECT_DIR$/.idea/image-retrieval-cpu.iml" />
     </modules>
   </component>
 </project>

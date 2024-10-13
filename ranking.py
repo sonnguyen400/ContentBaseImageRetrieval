@@ -13,7 +13,7 @@ from src.dataloader import get_transformation
 ACCEPTED_IMAGE_EXTS = ['.jpg', '.png']
 
 query_root = './dataset/groundtruth'
-image_root = './dataset/paris'
+image_root = './dataset/photos'
 feature_root = './dataset/feature'
 evaluate_root = './dataset/evaluation'
 
@@ -30,7 +30,7 @@ def main():
 
     parser = ArgumentParser()
     parser.add_argument("--feature_extractor", required=True, type=str, default='Resnet50')
-    parser.add_argument("--device", required=False, type=str, default='cpu')
+    parser.add_argument("--device", required=False, type=str, default='cuda:0')
     parser.add_argument("--top_k", required=False, type=int, default=11)
     parser.add_argument("--crop", required=False, type=bool, default=False)
 

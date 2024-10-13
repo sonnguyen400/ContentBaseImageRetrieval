@@ -9,12 +9,18 @@ from streamlit_cropper import st_cropper
 
 from src.feature_extraction import MyVGG16, MyResnet50, RGBHistogram, LBP
 from src.dataloader import get_transformation
+
+#Xóa nếu lỗi
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 st.set_page_config(layout="wide")
 
-device = torch.device('cpu')
-image_root = './dataset/pokemon'
+
+# Thay 'cuda:0' bằng 'cpu' nếu chỉ chay bằng cpu mà không có gpu NVIDIA
+device = torch.device('cuda:0')
+
+
+image_root = './dataset/photos'
 feature_root = './dataset/feature'
 
 

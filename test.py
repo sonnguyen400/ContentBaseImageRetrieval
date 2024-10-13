@@ -12,7 +12,7 @@ from src.dataloader import get_transformation
 ACCEPTED_IMAGE_EXTS = ['.jpg', '.png']
 
 query_root = './dataset/groundtruth'
-image_root = './dataset/paris'
+image_root = './dataset/photos'
 feature_root = './dataset/feature'
 evaluate_root = './dataset/evaluation'
 
