@@ -2,6 +2,10 @@
 
 https://github.com/KhaLee2307/image-retrieval
 
+![](demo.gif)
+
+Có sẵn 4 feature extractor gồm
+VGG16, ResNet50, Local Binary Pattern, RGBHistogram
 
 ### Yêu cầu thư viện
 
